@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import './app.scss';
 import Contact from './components/contact/Contact';
 import Cursor from './components/cursor/Cursor';
 import Hero from './components/hero/Hero';
@@ -8,7 +7,7 @@ import Parallax from './components/parallax/Parallax';
 import Portfolio from './components/portfolio/Portfolio';
 import Services from './components/services/Services';
 import backgroundMusic from './beats.mp3'; // Importing the background music
-
+import './App.scss';
 const App = () => {
   const audioRef = useRef(null);
 
