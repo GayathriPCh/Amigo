@@ -54,15 +54,6 @@ const StyledIcon = styled(motion.a)`
   }
 `;
 
-// Styled component for footer
-const StyledFooter = styled(motion.footer)`
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  padding: 1rem;
-`;
 
 const Contact = () => {
   return (
@@ -95,10 +86,7 @@ const Contact = () => {
           <FaInstagram />
         </StyledIcon>
       </motion.div>
-      <StyledFooter variants={variants}>
-        <p>&copy; {new Date().getFullYear()} All rights reserved. Made with ⚡ by a dragon.</p>
-      </StyledFooter>
-    </motion.div>
+      </motion.div>
   );
 };
 
